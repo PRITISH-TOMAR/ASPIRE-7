@@ -254,18 +254,19 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
 }
-
 
 .foot{
     margin: 10px;
+    justify-self: center;
+justify-items: center;
     display: flex;
-    width: 320px;
+    width: 340px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
-    /* border: 1px solid yellow; */
+    border: 1px solid yellow;
 }
 .foot .heading{
     margin: 0;
@@ -298,16 +299,16 @@ footer{
 }
 
 .links{
+    margin-top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-
-
-
-
-
-
-
+#foot3 h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+}
 
