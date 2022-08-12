@@ -242,9 +242,6 @@ header a:hover +.drop{
 
 
 /* ............................ */
-
-
-
 /* FOOTER */
 footer{
     
@@ -266,7 +263,7 @@ justify-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
-
+    /* border: 1px solid yellow; */
 }
 .foot .heading{
     margin: 0;
@@ -311,4 +308,14 @@ justify-items: center;
     font-size: 30px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
 
